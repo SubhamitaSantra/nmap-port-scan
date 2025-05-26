@@ -1,0 +1,54 @@
+# Nmap 7.95 scan initiated Mon May 26 13:07:06 2025 as: nmap -sS -oN scan_results.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0085s latency).
+Not shown: 989 closed tcp ports (reset)
+PORT      STATE    SERVICE
+21/tcp    open     ftp
+23/tcp    filtered telnet
+53/tcp    open     domain
+80/tcp    open     http
+139/tcp   open     netbios-ssn
+445/tcp   open     microsoft-ds
+5060/tcp  open     sip
+5080/tcp  open     onscreen
+5555/tcp  filtered freeciv
+8080/tcp  open     http-proxy
+49152/tcp open     unknown
+MAC Address: 68:D1:BA:60:3D:B3 (Shenzhen Youhua Technology)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0078s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: C2:E0:6A:0E:B0:BC (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0056s latency).
+All 1000 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: CA:E4:56:40:EB:FC (Unknown)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0045s latency).
+All 1000 scanned ports on 192.168.1.6 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 5A:2E:79:F1:57:AF (Unknown)
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0076s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 28:18:FD:B4:D6:A6 (Aditya Infotech)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.00011s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+5000/tcp open  upnp
+7000/tcp open  afs3-fileserver
+
+# Nmap done at Mon May 26 13:07:52 2025 -- 256 IP addresses (6 hosts up) scanned in 46.21 seconds
